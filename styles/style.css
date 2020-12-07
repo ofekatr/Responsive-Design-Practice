@@ -154,4 +154,74 @@ nav .order {
   grid-row: 3/4;
   padding-bottom: 3rem;
 }
+
+.features {
+  background: #323232;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.features .wave {
+  width: 100%;
+  bottom: -25%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.features-container {
+  min-height: 90vh;
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.features-container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: black;
+}
+
+.features-container .cards .card {
+  background: white;
+  margin: 0 3rem;
+  text-align: center;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  text-align: center;
+}
+
+.features-container .cards .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.features-container .cards .card h4 {
+  margin: 2rem 0 1rem 0;
+}
+
+.features-container .cards .card p {
+  padding: 2rem;
+}
 /*# sourceMappingURL=style.css.map */
